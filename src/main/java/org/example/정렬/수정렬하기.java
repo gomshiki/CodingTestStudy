@@ -1,4 +1,4 @@
-package org.example;
+package org.example.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -42,8 +42,10 @@ public class 수정렬하기 {
         }
 
         System.out.println(sb);
+        br.close();
 
     }
+
 
 }
 

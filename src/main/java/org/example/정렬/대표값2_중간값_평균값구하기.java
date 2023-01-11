@@ -1,4 +1,4 @@
-package org.example;
+package org.example.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,5 +25,8 @@ public class 대표값2_중간값_평균값구하기 {
         sb.append(sum/arr.length).append('\n').append(arr[arr.length/2]);
 
         System.out.println(sb);
+
+        br.close();
+
     }
 }

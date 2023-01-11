@@ -45,5 +45,7 @@ public class 주사위세개 {
 
             System.out.println(1000 + (max*100));
         }
+        br.close();
+
     }
 }

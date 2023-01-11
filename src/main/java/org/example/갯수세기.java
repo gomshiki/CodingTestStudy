@@ -32,6 +32,7 @@ public class 갯수세기 {
         }
 
         System.out.println(count);
+        br.close();
 
 
 

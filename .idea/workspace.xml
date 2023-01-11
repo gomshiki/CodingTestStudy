@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 &#10;- 갯수 세기 : 입력받은 정수 갯수를 출력&#10;- 정수 N개의 합 함수 만들기 : int[] 배열의 모든 값의 합을 리턴하도록&#10;- 행렬(NxM)의 합 : 이중for문을 이용 두 개의 이차원 배열 int[M][N]정의&#10;- 수 정렬하기 : 선택정렬(Selection) + BufferedReader + StringBuilde&#10;- 수 정렬하기2 : Arrays.sort + BufferedReader + StringBuilder&#10;- 수 정렬하기3 :  카운팅 정렬 + BufferedReader + StringBuildeR">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 &#10;- 중간값,평균값구하기 : sort정렬사용 후 중간값, 평균값 도출">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/주사위세개.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/갯수세기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/갯수세기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/대표값2_중간값_평균값구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/정렬/대표값2_중간값_평균값구하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/수정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/정렬/수정렬하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/수정렬하기2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/정렬/수정렬하기2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/수정렬하기3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/정렬/수정렬하기3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/주사위세개.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/주사위세개.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/행렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/이차원배열/행렬덧셈.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -40,18 +47,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.대표값2_중간값_평균값구하기">
-    <configuration name="행렬" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.행렬" />
+}</component>
+  <component name="RunManager" selected="Application.test2">
+    <configuration name="행렬덧셈" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.행렬덧셈" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스택2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.스택.스택2" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.스택.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SmallSubstring" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스택" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.스택.스택" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.스택.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,7 +106,33 @@
       </method>
     </configuration>
     <configuration name="수정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.수정렬하기" />
+      <option name="MAIN_CLASS_NAME" value="org.example.정렬.수정렬하기" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="별찍기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.별찍기" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -72,34 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="수정렬하기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.수정렬하기2" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="대표값2_중간값_평균값구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.대표값2_중간값_평균값구하기" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="수정렬하기3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.수정렬하기3" />
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.test2" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -113,10 +159,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.대표값2_중간값_평균값구하기" />
-        <item itemvalue="Application.수정렬하기2" />
-        <item itemvalue="Application.수정렬하기3" />
-        <item itemvalue="Application.수정렬하기" />
+        <item itemvalue="Application.test2" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SmallSubstring" />
+        <item itemvalue="Application.스택2" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672931220240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* 백준 코딩테스트 &#10;- 중간값,평균값구하기 : sort정렬사용 후 중간값, 평균값 도출">
+      <created>1672932403840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672932403840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* 백준 코딩테스트 &#10;- 갯수 세기 : 입력받은 정수 갯수를 출력&#10;- 정수 N개의 합 함수 만들기 : int[] 배열의 모든 값의 합을 리턴하도록&#10;- 행렬(NxM)의 합 : 이중for문을 이용 두 개의 이차원 배열 int[M][N]정의&#10;- 수 정렬하기 : 선택정렬(Selection) + BufferedReader + StringBuilde&#10;- 수 정렬하기2 : Arrays.sort + BufferedReader + StringBuilder&#10;- 수 정렬하기3 :  카운팅 정렬 + BufferedReader + StringBuildeR" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 &#10;- 갯수 세기 : 입력받은 정수 갯수를 출력&#10;- 정수 N개의 합 함수 만들기 : int[] 배열의 모든 값의 합을 리턴하도록&#10;- 행렬(NxM)의 합 : 이중for문을 이용 두 개의 이차원 배열 int[M][N]정의&#10;- 수 정렬하기 : 선택정렬(Selection) + BufferedReader + StringBuilde&#10;- 수 정렬하기2 : Arrays.sort + BufferedReader + StringBuilder&#10;- 수 정렬하기3 :  카운팅 정렬 + BufferedReader + StringBuildeR" />
+    <MESSAGE value="* 백준 코딩테스트 &#10;- 중간값,평균값구하기 : sort정렬사용 후 중간값, 평균값 도출" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 &#10;- 중간값,평균값구하기 : sort정렬사용 후 중간값, 평균값 도출" />
   </component>
 </project>

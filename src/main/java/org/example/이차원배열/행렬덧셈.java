@@ -1,19 +1,18 @@
-package org.example;
+package org.example.이차원배열;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class 행렬 {
+public class 행렬덧셈 {
 
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 
-        /** 행렬 크기 정의(N x M) **/
+        /** 행렬덧셈 크기 정의(N x M) **/
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
@@ -32,7 +31,7 @@ public class 행렬 {
                 A[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-        /** 첫번째 행렬 입력받기 **/
+        /** 두번째 행렬 입력받기 **/
         for (int i = 0; i < N ; i++) {
 
             st = new StringTokenizer(br.readLine(), " ");
@@ -42,6 +41,7 @@ public class 행렬 {
             }
         }
 
+        /** 행렬 더하기 */
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
 
@@ -50,6 +50,7 @@ public class 행렬 {
             }
             System.out.println();
         }
+        br.close();
 
     }
 
