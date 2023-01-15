@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이">
+    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 단어공부 (아스키코드)&#10;- 문자열 반복">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/문자열/단어공부.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/문자열/단어공부.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.단어공부">
+  <component name="RunManager" selected="Application.단어의개수">
     <configuration name="행렬덧셈" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.행렬덧셈" />
       <module name="codingTestStudy.main" />
@@ -61,6 +62,19 @@
     </configuration>
     <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단어의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어의개수" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -243,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.단어의개수" />
         <item itemvalue="Application.단어공부" />
         <item itemvalue="Application.```" />
         <item itemvalue="Application.test2" />
@@ -287,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673411187999</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="* 백준 코딩테스트 문제풀이&#10;- 단어공부 (아스키코드)&#10;- 문자열 반복">
+      <created>1673763131416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673763131416</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +328,7 @@
     <MESSAGE value="* 백준 코딩테스트 &#10;- 중간값,평균값구하기 : sort정렬사용 후 중간값, 평균값 도출" />
     <MESSAGE value="* 백준 코딩테스트 &#10;- 수 정렬&#10;- 갯수 세기&#10;- 대표값 중간값 평균값 구하기&#10;- 행렬덧셈&#10;- 주사위 세개" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이" />
+    <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 단어공부 (아스키코드)&#10;- 문자열 반복" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 단어공부 (아스키코드)&#10;- 문자열 반복" />
   </component>
 </project>

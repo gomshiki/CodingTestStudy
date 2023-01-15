@@ -35,13 +35,15 @@ public class 단어공부 {
         
 
         int count = 0;
-        
+
+        // max 값인 배열의 갯수 확인
         for (int i : arr) {
             if (i == Arrays.stream(arr).max().getAsInt()) {
                 count++;
             }
         }
 
+        // 최종 출력문
         if (count > 1) {
             System.out.println("?");
         } else {
