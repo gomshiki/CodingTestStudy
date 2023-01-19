@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 상수(숫자 뒤집기)&#10; -- 풀이방법1 : StringBuffer.reverse 사용&#10; -- 풀이방법2 : StringBuilder.reveser 사용">
+    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.코테">
+  <component name="RunManager" selected="Application.그룹단어체커">
     <configuration name="행렬덧셈" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.행렬덧셈" />
       <module name="codingTestStudy.main" />
@@ -72,99 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="코테" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.코테" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.문자열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="단어의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어의개수" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.문자열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="스택" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.스택.스택" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.스택.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="수정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.정렬.수정렬하기" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.문자열.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="별찍기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.별찍기" />
-      <module name="codingTestStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="알파벳찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.알파벳찾기" />
+    <configuration name="그룹단어체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.그룹단어체커" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -293,9 +203,113 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="코테" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.코테" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단어의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어의개수" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스택" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.스택.스택" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.스택.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="수정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.정렬.수정렬하기" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="별찍기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.별찍기" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="알파벳찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.알파벳찾기" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.코테" />
+        <item itemvalue="Application.그룹단어체커" />
         <item itemvalue="Application.코테2" />
       </list>
     </recent_temporary>
@@ -358,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674019992125</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳">
+      <created>1674031580615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674031580615</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,6 +401,7 @@
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 단어공부 (아스키코드)&#10;- 문자열 반복" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 단어 갯수" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 상수(숫자 뒤집기)&#10; -- 풀이방법1 : StringBuffer.reverse 사용&#10; -- 풀이방법2 : StringBuilder.reveser 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 상수(숫자 뒤집기)&#10; -- 풀이방법1 : StringBuffer.reverse 사용&#10; -- 풀이방법2 : StringBuilder.reveser 사용" />
+    <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳" />
   </component>
 </project>
