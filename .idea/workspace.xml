@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.그룹단어체커">
+  <component name="RunManager" selected="Application.손익분기점">
     <configuration name="행렬덧셈" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.행렬덧셈" />
       <module name="codingTestStudy.main" />
@@ -79,6 +78,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="손익분기점" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.기본수학1.손익분기점" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.기본수학1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,6 +321,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.손익분기점" />
         <item itemvalue="Application.그룹단어체커" />
         <item itemvalue="Application.코테2" />
       </list>
@@ -379,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674031580615</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커">
+      <created>1674104334978</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674104334978</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,6 +422,7 @@
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 단어 갯수" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 상수(숫자 뒤집기)&#10; -- 풀이방법1 : StringBuffer.reverse 사용&#10; -- 풀이방법2 : StringBuilder.reveser 사용" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳" />
+    <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커" />
   </component>
 </project>
