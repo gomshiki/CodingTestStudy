@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커">
+    <list default="true" id="872aed45-30a8-462f-918e-b52865426d62" name="Changes" comment="* 백준 코딩테스트 문제풀이&#10;- 손익분기점">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +42,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.손익분기점">
+  <component name="RunManager" selected="Application.행렬덧셈">
     <configuration name="행렬덧셈" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.행렬덧셈" />
       <module name="codingTestStudy.main" />
@@ -64,7 +67,7 @@
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.promrammerstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="그룹단어체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.그룹단어체커" />
+    <configuration name="알파벳찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.알파벳찾기" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +107,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="프로그래머스테스트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.프로그래머스테스트" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,6 +179,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="아스키코드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.아스키코드" />
+      <module name="codingTestStudy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="숫자의합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.문자열.숫자의합" />
       <module name="codingTestStudy.main" />
@@ -176,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="아스키코드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.아스키코드" />
+    <configuration name="최대값" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.이차원배열.최대값" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="PATTERN" value="org.example.이차원배열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="수정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.정렬.수정렬하기" />
+    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.정렬.*" />
+          <option name="PATTERN" value="org.example.문자열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="단어공부" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.단어공부" />
+    <configuration name="수정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.정렬.수정렬하기" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.문자열.*" />
+          <option name="PATTERN" value="org.example.정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,8 +335,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="알파벳찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.문자열.알파벳찾기" />
+    <configuration name="그룹단어체커" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.문자열.그룹단어체커" />
       <module name="codingTestStudy.main" />
       <extension name="coverage">
         <pattern>
@@ -321,8 +350,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.손익분기점" />
-        <item itemvalue="Application.그룹단어체커" />
         <item itemvalue="Application.코테2" />
       </list>
     </recent_temporary>
@@ -399,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674104334978</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="* 백준 코딩테스트 문제풀이&#10;- 손익분기점">
+      <created>1674108498549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674108498549</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,6 +457,7 @@
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 상수(숫자 뒤집기)&#10; -- 풀이방법1 : StringBuffer.reverse 사용&#10; -- 풀이방법2 : StringBuilder.reveser 사용" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 다이얼&#10;- 크로아티아알파벳" />
     <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커" />
-    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 그룹단어체커" />
+    <MESSAGE value="* 백준 코딩테스트 문제풀이&#10;- 손익분기점" />
+    <option name="LAST_COMMIT_MESSAGE" value="* 백준 코딩테스트 문제풀이&#10;- 손익분기점" />
   </component>
 </project>
